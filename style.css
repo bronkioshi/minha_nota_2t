@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: aqua;
+}
+.cabeçalho {
+    background-color: white;
+}
+.cabeçalho__titulo {
+    color: aqua;
+}
+.cabeçalho__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.cabeçalho__lista-item {
+    margin: 0 12px;
+}
